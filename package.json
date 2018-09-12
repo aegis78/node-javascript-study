@@ -1,0 +1,22 @@
+{
+  "name": "javascript-study",
+  "version": "1.0.0",
+  "description": "server side javascript toturials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aegis78/node-javascript-study.git"
+  },
+  "author": "yiseungju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aegis78/node-javascript-study/issues"
+  },
+  "homepage": "https://github.com/aegis78/node-javascript-study#readme",
+  "dependencies": {
+    "underscore": "^1.9.1"
+  }
+}
