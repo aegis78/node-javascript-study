@@ -1,5 +1,8 @@
 const express = require('express');
 var app = express();
+app.locals.pretty = true;
+app.set('view engine', 'jade');
+app.set('views', './views');
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
@@ -24,6 +27,10 @@ app.get('/dynamic', function(req, res) {
 
 app.get('/login', (req, res) => {
     res.send('Login please');
+});
+
+app.get('/templete', function(req, res){
+    res.render('temp', {title:'이것슨', time:Date()});
 });
 
 app.listen(3000, () => {
